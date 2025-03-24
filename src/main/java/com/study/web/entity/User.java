@@ -13,6 +13,7 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     @TableId(type=IdType.AUTO)
+    @TableField(value = "UID")
     private Integer UID;
 
     @TableField(value = "UName")
